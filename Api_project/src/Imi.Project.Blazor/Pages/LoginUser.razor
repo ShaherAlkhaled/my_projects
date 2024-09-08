@@ -1,0 +1,80 @@
+﻿@page "/inloggen"
+@inject IAccountService service;
+@inject NavigationManager NavigationManager;
+@inject IToastService toastService;
+
+<h3>Inloggin</h3>
+<div class="mt-3">
+
+
+    @if (user != null)
+    {
+        <Login User="user" OnSaveClick="SaveUser" OnRegisterClick="RegisterNewUser" ></Login>
+    }
+    else
+    {
+        <Register NewUser="newUser" RegisterNewUser="CreateNewUser" OnCancelClick="Cancel" ></Register>
+    }
+    
+</div>
+
+
+
+
+
+@code {
+    private UserAppilcation user=new UserAppilcation();
+
+    private RegisterAppilcation newUser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await service.Logout();
+    }
+
+
+
+    public async Task SaveUser(UserAppilcation  user)
+    {
+        try
+        {
+            await service.Login(user);
+            toastService.ShowInfo("U bent met successfully ingelogd");
+            NavigationManager.NavigateTo("fishes");
+        }
+        catch (Exception ex)
+        {
+            toastService.ShowError($"{ex.Message}: Gelieve wachtwoord en email te checken !!");
+        }
+    }
+    public async Task CreateNewUser(RegisterAppilcation  newUser)
+    {
+        try
+        {
+            await service.Register(newUser);
+            toastService.ShowInfo("U bent met successfully geregistreerd");
+            Cancel();
+        }
+        catch (Exception ex)
+        {
+            toastService.ShowError($"{ ex.Message} :Gelieve wachtwoord,gebruiknaam en  email te checken ");
+
+        }
+    }
+
+    public  async Task Cancel()
+    {
+        this.user = new UserAppilcation();
+        this.newUser = null;
+    }
+
+    public  async Task RegisterNewUser()
+    {
+        this.user = null;
+        this.newUser = new RegisterAppilcation();
+    }
+
+  
+   
+
+}

@@ -1,0 +1,49 @@
+﻿
+
+<EditForm Model="@NewUser" OnValidSubmit="@(e => RegisterNewUser.InvokeAsync(NewUser))">
+    <DataAnnotationsValidator />
+   <div class="form-group">
+        <label for="email">Gebruiker-naam: </label>
+        <InputText id="email" @bind-Value="NewUser.UserName" class="form-control" />
+        <ValidationMessage For="@(() => NewUser.UserName)" />
+    </div>
+    <div class="form-group">
+        <label for="email">Email: </label>
+        <InputText id="email" @bind-Value="NewUser.Email" class="form-control" />
+        <ValidationMessage For="@(() => NewUser.Email)" />
+    </div>
+    <div class="form-group">
+        <label for="password">WachtWoord: </label>
+        <InputText id="password" @bind-Value="NewUser.Password" class="form-control" />
+        <ValidationMessage For="@(() => NewUser.Password)" />
+    </div>
+    <div class="form-group">
+        <label for="password">Bevistig-wachtwoord: </label>
+        <InputText id="password" @bind-Value="NewUser.ConfirmPassword" class="form-control" />
+        <ValidationMessage For="@(() => NewUser.ConfirmPassword)" />
+    </div>
+   <div class="form-group">
+        <label for="dateOfArrival">Geboorte-Datum: </label>
+        <InputDate  id="dateOfArrival"  @bind-Value="NewUser.BirthDate"class="form-control" />
+         <ValidationMessage For="@(() => NewUser.BirthDate)" />
+    </div>
+    <div class="form-group">
+            <div class="form-check">
+             <InputCheckbox id="agree" class="form-check-input" @bind-Value="NewUser.HasApprovedTermsAndConditions"/>Akkoord met algemene voorwaarden
+            </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Registeer</button>
+   <button type="button" class="btn btn-warning" @onclick="OnCancelClick">Aanuleren</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public RegisterAppilcation NewUser { get; set; }
+
+    [Parameter]
+    public EventCallback<RegisterAppilcation> RegisterNewUser { get; set; }
+    [Parameter]
+    public EventCallback OnCancelClick { get; set; }
+
+
+}

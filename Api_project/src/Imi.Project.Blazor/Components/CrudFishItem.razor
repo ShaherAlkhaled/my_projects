@@ -1,0 +1,88 @@
+﻿
+
+<EditForm Model="@Fish" OnValidSubmit="@(e => OnSaveClick.InvokeAsync(Fish))">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label for="name">Naam: </label>
+        <InputText id="name" @bind-Value="Fish.Name" class="form-control" />
+        <ValidationMessage For="@(() => Fish.Name)" />
+    </div>
+  <div class="form-group">
+        <label for="price">Prijs: </label>
+        <InputNumber id="price" @bind-Value="Fish.Price" class="form-control" />
+        <ValidationMessage For="@(() => Fish.Price)" />
+
+    </div>
+    <div class="form-group">
+        <label for="minweigth">Minimum-gewicht: </label>
+        <InputNumber id="minweigth" @bind-Value="Fish.MinWeigth" class="form-control" />
+        <ValidationMessage For="@(() => Fish.MinWeigth)" />
+    </div>
+    <div class="form-group">
+        <label for="maxweigth">Max-gewicht: </label>
+        <InputNumber id="maxweigth" @bind-Value="Fish.MaxWeight" class="form-control" />
+        <ValidationMessage For="@(() => Fish.MaxWeight)" />
+    </div>
+ <div class="form-group">
+        <label for="category">Landen: </label>
+        <InputSelect id="category" @bind-Value="Fish.OriginCountryId" class="form-control">
+            @foreach (var country in Fish.CountriesList)
+            {
+                <option value="@country.Value">@country.Text</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => Fish.OriginCountryId)" />
+    </div>   <div class="form-group">
+        <label for="category">Category: </label>
+        <InputSelect id="category" @bind-Value="Fish.CategoryId" class="form-control">
+            @foreach (var category in Fish.CategoriesList)
+            {
+                <option value="@category.Value">@category.Text</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => Fish.CategoryId)" />
+    </div>
+    @if (IsEdit==true)
+    {
+       <div class="form-group">
+               <label for="image">Afbeelding: </label>
+                <BlazorInputFile.InputFile id="image" class="form-control"OnChange="HandelFileSelected" ></BlazorInputFile.InputFile>
+      </div>
+    }
+    
+   
+   <div class="form-group">
+        <label for="dateOfArrival">Datum Aankomen: </label>
+        <InputDate  id="dateOfArrival"  @bind-Value="Fish.DateOfArrival"class="form-control" />
+    </div>
+       <div class="form-group">
+       <label for="properties">Verwerken: </label>
+       @foreach (var check in Fish.Properties)
+        {
+            <div class="form-check">
+             <InputCheckbox id="fishProssings" class="form-check-input" @bind-Value="check.IsSelected"/>@check.Name
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Opslaan</button>
+    <button type="button" class="btn btn-warning" @onclick="OnCancelClick">Annuleren</button>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public FishItem Fish { get; set; } 
+    [Parameter]
+    public EventCallback<FishItem> OnSaveClick { get; set; }
+    [Parameter]
+
+    public bool IsEdit{ get; set; }
+
+    [Parameter]
+    public EventCallback<IFileListEntry[]> HandelFileSelected { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancelClick { get; set; }
+}

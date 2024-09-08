@@ -1,0 +1,116 @@
+﻿
+@page "/fishes/{FishId:long}"
+@inject ICrudService<FishListItem,FishItem> service;
+@inject IToastService toastService;
+@inject IAccountService accountService;
+@inject NavigationManager NavigationManager;
+
+
+@if (checkLogIn)
+{
+    <Logout OnLogOutClick="OnLogOutClick"></Logout>
+}
+
+@if(fish != null)
+{
+<div>
+    <div class="card col-sm-6">
+        <img asp-append-version="true" src="@fish.UrlImage" class="card-img-top mx-auto m-1" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@fish.Name</h5>
+            <div class="card-text">
+
+                 <dl>
+                    <dt>min gewicht :</dt>
+
+                    <dd>@fish.MinWeigth kg</dd>
+
+                </dl>
+                 <dl>
+                    <dt>Max gewicht :</dt>
+
+                    <dd>@fish.MaxWeight kg</dd>
+
+                </dl>
+                  <dl>
+                    <dt>Afkomstig land :</dt>
+
+                    <dd>@fish.OriginCountryName</dd>
+
+                </dl>
+                 <dl>
+                    <dt>Aankomen Datum :</dt>
+
+                    <dd>@fish.DateOfArrival.ToString("yyyy-MMMM-dd")</dd>
+
+                </dl>
+
+                <dl>
+                    <dt>Verwerking</dt>
+                    @if(fish.FishProcessings != null)
+                    {
+                        @foreach (var processing in fish.FishProcessings)
+                        {
+                            <dd class=" d-inline">@processing.Name,</dd>
+                        }
+                    }
+                  
+                </dl>
+                <dl>
+                    <dt>Category</dt>
+
+                    <dd>@fish.CategoryName</dd>
+
+                </dl>
+                <dl>
+                    <dt>Priis</dt>
+
+                    <dd>@fish.Price.ToString("€ #0.00")</dd>
+
+                </dl>
+              
+            </div>
+
+        </div>
+    </div>
+</div>
+<br />
+<a href="/fishes" class="btn btn-outline-primary">&#9204;Back</a>
+
+
+
+
+
+}
+
+
+@code {
+    private FishItem fish=new FishItem();
+
+    [Parameter]
+    public long FishId { get; set; }
+
+    private bool checkLogIn;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        this.checkLogIn =  accountService.CheckLogIn();
+        try
+        {
+
+            fish =await service.GetFishById(FishId);
+        }
+        catch(Exception ex)
+        {
+            toastService.ShowError(ex.Message);
+
+        }
+    }
+
+    public async Task OnLogOutClick()
+    {
+        accountService.Logout();
+        NavigationManager.NavigateTo("inloggen");
+    }
+}

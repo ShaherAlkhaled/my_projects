@@ -1,0 +1,185 @@
+﻿
+<div class="container" id="container">
+<div class="text-center">
+    <h1 class="display-4">Landen</h1>
+
+</div>
+
+<div id="app" class="row">
+
+    <div class="col-md-12">
+        <button class="btn btn-info" v-on:click.prevent="toEditMode(false)">Toevoegen</button>
+    </div>
+    <br />
+    <br />
+
+    <div class="row" v-if="!isEidtOrCreate" >
+             <div class="col-md-5" style="margin-bottom:20px" v-for="country in countries" >
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <h5 class="card-title" >{{country.name}}</h5>
+                               <button type="button" class="btn btn-warning"
+                               v-on:click.prevent="toEditMode(true,country)">Wijzigen</button>
+                               <button type="button" class="btn btn-danger"
+                               v-on:click.prevent="deleteClick(country.id)">Verwijderen</button>
+                            </div>
+                      </div>
+             </div>        
+   </div>
+
+   <div class="col-md-6">
+         <div  v-if="currentCountry">
+              <div v-if="errors">
+                <ul>
+                  <li class="alert-danger" v-for="error in errors">{{ error }}</li>
+                </ul>
+              </div>             
+             <div class="form-group">
+                <h6>Naam</h6>
+                <input class="form-control" v-model="currentCountry.name"  />
+              
+            </div>
+            <div class="btn-group">
+                <button class="btn mr-4 btn-warning" v-on:click.prevent="saveCountry">Opslaan</button>
+                <button class="btn btn-primary"   v-on:click.prevent="cancel" >Annuleren</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+
+
+@section scripts{
+   
+
+    <script>
+           const token = JSON.parse(sessionStorage.getItem("token"));
+           const url = 'https://localhost:5001/api/OriginCountry';
+         let axiosConfig;
+        if (token != null) {
+            axiosConfig = { headers: { Authorization: `Bearer ${token.token}` } };
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                countries: null,
+                currentCountry: null,
+                isReadOnly: true,
+                feedback: '',
+                isEditMode: false,
+                isEidtOrCreate:false,
+                 errors: null,
+                 
+            },
+            created: function () {
+                let self = this;
+                self.getCountries();
+            },
+            methods: {
+                getCountries: function() {
+                    let self = this;
+                    axios.get(url,axiosConfig)
+                        .then(response => (self.countries = response.data))
+                        .catch(err => console.log(err.message));
+                },
+
+                
+                toEditMode: function(isEditMode, country) {
+                    var self = this;
+                    self.isEditMode = isEditMode;
+                    self.isEidtOrCreate = true;
+                    if (!self.isEditMode) {
+                        self.currentCountry = {
+                            name: "",
+
+                        }
+                    } else {
+                        self.currentCountry = country;
+                    }
+
+                },
+
+                deleteClick: function(id) {
+                    let self = this;
+
+                    if (confirm(`Are you sure you want to delete Country with Id ${id} ?`)) {
+                        axios.delete(`https://localhost:5001/api/OriginCountry/${id}`, axiosConfig)
+                            .then(function(response) {
+                                self.feedback = `Country  with ID ${id} has been deleted`;
+                                self.countries.forEach(function(country, i) {
+                                    if (country.id === id) {
+                                        self.countries.splice(i, 1);
+                                    }
+
+                                });
+                            })
+                            .catch(function(error) { alert(error.message); });
+                    } 
+            
+                },
+                cancel: function() {
+                    let self = this;
+                    self.isEidtOrCreate = false;
+                    self.currentCountry = null;
+                    self.errors = null;
+
+                },
+
+                saveCountry: function() {
+                    let self = this;
+
+                    if (self.isEditMode) {
+                        axios.put(url, self.currentCountry, axiosConfig)
+                            .then(function(response) {
+                                self.feedback = `Country ${self.currentCountry.name} with ID ${self.currentCountry.id} has been modified`;
+                                alert(self.feedback)
+                                self.isEidtOrCreate = false;
+                                self.currentCountry = null;
+                                self.getCountries();
+                                 self.feedback = null;
+                                self.error = null;
+                            })
+                            .catch(function(error) {
+                                 alert(error.message);
+                                self.IsVaild();
+                                return;
+                            });
+                            
+                    }
+                    else {
+                        axios.post(url, self.currentCountry, axiosConfig)
+                            .then(function(response) {
+                                self.currentCountry = response.data;
+                                self.countries.push(self.currentCountry);
+                                self.feedback = `Country ${self.currentCountry.name} with ID ${self.currentCountry.id} has been created`;
+                                alert(self.feedback)
+                                self.isEidtOrCreate = false;
+                                self.currentCountry = null;
+                                self.feedback = null;
+                                self.error = null;
+                            })
+                            .catch(function(error) {
+                                console.log(error);
+                                alert(error.message);
+                                self.IsVaild();
+                                return;
+                            });
+                    }
+
+                },
+
+                IsVaild: function() {
+                    let self=this;
+                     if (self.currentCountry.name === "") {
+                         self.errors = [];
+                       self.errors.push('Name is verplicht ');
+                     }
+                }
+
+            }
+        });
+    </script>
+}

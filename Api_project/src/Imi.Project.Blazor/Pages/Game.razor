@@ -1,0 +1,121 @@
+﻿@page "/game"
+@inject IGameService _gameService;
+@inject IToastService toastService;
+@inject IAccountService accountService;
+@inject NavigationManager NavigationManager;
+
+
+@if (checkLogIn)
+{
+    <Logout OnLogOutClick="OnLogOutClick"></Logout>
+         
+            @if (showresult == true)
+            {
+                <ResultGame CorrectAnswer=_gameService.GetCorrectlyAnswers()
+                            TotalQuestion=_gameService.GetTotalQuestion()
+                            StartGame=StartGame
+                >
+                </ResultGame>
+            }
+
+            @if (showGameStart == true)
+                 {
+                     <StartWithGame
+                         StartGame=StartGame>
+                     </StartWithGame>
+                 }
+
+
+            @if (showGame == true)
+            {
+                <PlayWithGame FindAnswer=CheckAnswer
+                            Images=gameItem.Images
+                            Question=@question
+                            TotalQuestion=_gameService.GetTotalQuestion()
+                            CorrectAnswer=_gameService.GetCorrectlyAnswers()
+                            >
+
+                </PlayWithGame>
+            }
+   } 
+@code {
+    private GameItem gameItem=new GameItem();
+    private bool showGameStart=true;
+    private bool showGame;
+    private bool showresult=false;
+    private string question;
+     private bool checkLogIn;
+
+
+     protected override async Task OnInitializedAsync()
+    {
+         gameItem.Images = new List<string>();
+
+        try
+        {
+           this.checkLogIn =  accountService.CheckLogIn();
+            await _gameService.Initialization();
+ 
+        }catch(Exception ex)
+        {
+            
+          toastService.ShowError(ex.Message);
+        }
+    }
+    public void StartGame() 
+    {
+        showGameStart = false;
+        showGame = true;
+        showresult = false;
+        _gameService.StartGame();
+        DisplayQuestion();
+    }
+
+    public async void DisplayQuestion() 
+    {
+        try
+        {
+            gameItem = await _gameService.CreateGameItem();
+            question =   await _gameService.CreateQuestion(gameItem); 
+        }catch(Exception ex)
+        {
+            
+          toastService.ShowError(ex.Message);
+
+        }
+
+
+    }
+
+    public  void CheckAnswer(string check) 
+    {
+        if (_gameService.CheckAnswer(check, gameItem))
+        {
+            toastService.ShowSuccess("Goed");
+        }
+        else
+        {
+            toastService.ShowError("Fout");
+        }
+        if(_gameService.HandleAnswer(check, gameItem))
+        {
+            DisplayQuestion();
+        }
+        else
+        {
+             Reset();
+             return;
+        }
+    }
+
+    public void Reset(){
+        showGame = false;
+        showresult = true;
+    }
+     public async Task OnLogOutClick()
+    {
+        accountService.Logout();
+        NavigationManager.NavigateTo("inloggen");
+    }
+   
+}

@@ -1,0 +1,147 @@
+﻿@page "/fishes"
+@inject ICrudService<FishListItem,FishItem> service;
+@inject IToastService toastService;
+@inject IAccountService accountService;
+@inject NavigationManager NavigationManager;
+
+
+@if (checkLogIn)
+{
+    <Logout OnLogOutClick="OnLogOutClick"></Logout>
+}
+<h3>Vissen</h3>
+<div class="mt-3">
+    @if(currentFish == null)
+    {
+        <ShowFishListItem  Fishs="fishs"   
+                           OnAddClick="AddFish"
+                           OnEditClick="EditFish"
+                           OnDeleteClick="DeleteFish"
+                           CheckInlog="checkLogIn"                         >
+        </ShowFishListItem>
+    }
+    else
+    {
+        <CrudFishItem   Fish="currentFish"
+                        HandelFileSelected="HandelFileSelected"
+                        OnSaveClick="SaveFish"
+                         OnCancelClick="ShowList"
+                          IsEdit="isEdit">
+        </CrudFishItem>
+    }
+</div>
+
+@code {
+    private List<FishListItem> fishs = new List<FishListItem>();
+    private FishItem currentFish;
+    private bool isEdit;
+    private bool checkLogIn;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ShowList();
+    }
+
+    public  async Task ShowList()
+    {
+        try
+        {
+          this.checkLogIn =  accountService.CheckLogIn();
+          fishs = await service.GetList();
+          currentFish = null;
+        }catch (Exception ex)
+        {
+          toastService.ShowError(ex.Message);
+        }
+
+    }
+
+    public async Task AddFish()
+    {
+        try
+        {
+
+            this.currentFish= await service.GetNew();
+            this.isEdit = false;
+        }
+        catch(Exception ex)
+        {
+          toastService.ShowError(ex.Message);
+        }
+    }
+
+    public async Task EditFish(FishListItem item)
+    {
+        try
+        {
+            this.currentFish = await service.GetFishById(item.Id);
+            this.isEdit = true;
+        }
+        catch(Exception ex)
+        {
+          toastService.ShowError(ex.Message);
+        }
+
+    }
+
+    public async Task SaveFish(FishItem item)
+    {
+        try
+        {
+            if (currentFish.Id == 0)
+            {
+                await service.Create(currentFish);
+            }
+            else
+            {
+                await service.Update(currentFish);
+            }
+            await this.ShowList();
+        }
+        catch (Exception ex)
+        {
+          toastService.ShowError(ex.Message);
+        }
+    }
+
+    public async Task DeleteFish(FishListItem item)
+    {
+        try
+        {
+            await service.Delete(item.Id);
+            await this.ShowList();
+           
+        }
+        catch (Exception ex)
+        {
+          toastService.ShowError(ex.Message);
+        }
+ 
+    }
+    private IFileListEntry file;
+    public async Task HandelFileSelected(IFileListEntry[] files)
+    {
+
+        file = files.FirstOrDefault();
+            if(file != null)
+            {
+                 try
+            {
+                await service.FileUpload(file,currentFish.Id);
+            }
+            catch (Exception ex)
+            {
+              toastService.ShowError(ex.Message);
+            }
+        }
+    }
+    public async Task OnLogOutClick()
+    {
+        accountService.Logout();
+        NavigationManager.NavigateTo("inloggen");
+    }
+
+   
+
+}
+

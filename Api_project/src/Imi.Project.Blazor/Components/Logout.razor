@@ -1,0 +1,9 @@
+﻿ 
+    <div class="top-row px-4 active">
+           <button class="btn btn-outline-info" @onclick="OnLogOutClick">Uitloggen</button>
+        </div>
+@code {
+    [Parameter]
+    public EventCallback OnLogOutClick { get; set; }
+
+}

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\services\\fishapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\services\\fishapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\services\\accountapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\services\\accountapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\services\\hardcoded\\fishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\services\\hardcoded\\fishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0D90B3-A6D9-4669-AA79-171E2D63EE12}|Imi.Project.Api\\Imi.Project.Api.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C0D90B3-A6D9-4669-AA79-171E2D63EE12}|Imi.Project.Api\\Imi.Project.Api.csproj|solutionrelative:imi.project.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.blazor\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0265B5C-7B31-43D1-83CD-A3149DA2328C}|Imi.Project.Blazor\\Imi.Project.Blazor.csproj|solutionrelative:imi.project.blazor\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0D90B3-A6D9-4669-AA79-171E2D63EE12}|Imi.Project.Api\\Imi.Project.Api.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0D90B3-A6D9-4669-AA79-171E2D63EE12}|Imi.Project.Api\\Imi.Project.Api.csproj|solutionrelative:imi.project.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.vue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|solutionrelative:imi.project.vue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.vue\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|solutionrelative:imi.project.vue\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.vue\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|solutionrelative:imi.project.vue\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.vue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|solutionrelative:imi.project.vue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|d:\\g_b\\repo\\my_projects\\api_project\\src\\imi.project.vue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44AF898A-23F0-4435-A3D6-DCE16BF97922}|Imi.Project.Vue\\Imi.Project.Vue.csproj|solutionrelative:imi.project.vue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FishApiService.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\FishApiService.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\Services\\FishApiService.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\FishApiService.cs",
+              "RelativeToolTip": "Imi.Project.Blazor\\Services\\FishApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:07:44.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountApiService.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\AccountApiService.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\Services\\AccountApiService.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\AccountApiService.cs",
+              "RelativeToolTip": "Imi.Project.Blazor\\Services\\AccountApiService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:07:36.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FishService.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\Hardcoded\\FishService.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\Services\\Hardcoded\\FishService.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Services\\Hardcoded\\FishService.cs",
+              "RelativeToolTip": "Imi.Project.Blazor\\Services\\Hardcoded\\FishService.cs",
+              "ViewState": "AgIAABUCAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:07:24.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\appsettings.json",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\appsettings.json",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\appsettings.json",
+              "RelativeToolTip": "Imi.Project.Blazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T15:06:42.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\appsettings.Development.json",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\appsettings.Development.json",
+              "RelativeToolTip": "Imi.Project.Blazor\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T15:06:36.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Startup.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Blazor\\Startup.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Blazor\\Startup.cs",
+              "RelativeToolTip": "Imi.Project.Blazor\\Startup.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:06:21.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Api\\Startup.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Startup.cs",
+              "RelativeToolTip": "Imi.Project.Api\\Startup.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:52:24.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Imi.Project.Api\\appsettings.json",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\appsettings.json",
+              "RelativeToolTip": "Imi.Project.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T14:51:48.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Startup.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Vue\\Startup.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Startup.cs",
+              "RelativeToolTip": "Imi.Project.Vue\\Startup.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:50:08.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Program.cs",
+              "RelativeDocumentMoniker": "Imi.Project.Vue\\Program.cs",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Program.cs",
+              "RelativeToolTip": "Imi.Project.Vue\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:50:05.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Imi.Project.Vue\\appsettings.Development.json",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\appsettings.Development.json",
+              "RelativeToolTip": "Imi.Project.Vue\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T14:49:57.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\appsettings.json",
+              "RelativeDocumentMoniker": "Imi.Project.Vue\\appsettings.json",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\appsettings.json",
+              "RelativeToolTip": "Imi.Project.Vue\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-08T14:49:53.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Imi.Project.Vue\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Vue\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Imi.Project.Vue\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T14:49:40.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

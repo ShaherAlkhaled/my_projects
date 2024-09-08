@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels" 
+             xmlns:urisource="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions"
+             x:DataType="viewmodels:FishViewModel"
+             x:Class="Imi.Project.Mobile.Pages.FishPage"
+             Title="Vis"
+              NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Uitloggen" IconImageSource="account.png" Command="{Binding LougoutCommand}" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="Toevoegen" IconImageSource="add.png" Command="{Binding AddCommand}"  Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem Text="Terug" IconImageSource="back.png" Command="{Binding GoBackCommand}" Priority="2" Order="Primary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Style="{StaticResource  PageStyle}">
+                <Image Source="{Binding ImageUrl}" VerticalOptions="Center" HeightRequest="300" Aspect="Fill">
+                    <Image.Behaviors>
+                        <urisource:TlsSourceBehavior 
+                        IgnoreCertificateErrors="True" />
+                    </Image.Behaviors>
+                </Image>
+                <StackLayout>
+                <Label Text="{Binding Name}" 
+                 Style="{StaticResource LabelStyle}"      
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding Price}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding OriginCountry}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding MinWeigth}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text="{Binding MaxWeigth}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Wijzigen" Command="{Binding EditFishCommand}" Style="{StaticResource ButtonStyle}" />
+                    <Button Text="Verwijderen" Command="{Binding DeleteFishCommand}" Style="{StaticResource ButtonDanger}" IsVisible="{Binding IsAdmin}" />
+                    <Button Text="Upload Image" Command="{Binding UploadImageFishCommand}" Style="{StaticResource ButtonStyle}" />
+                </StackLayout>
+          
+          
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

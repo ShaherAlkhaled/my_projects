@@ -1,0 +1,1 @@
+D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Imi.Project.Mobile.UWP.csproj;x86

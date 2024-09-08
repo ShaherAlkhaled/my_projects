@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"             
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels" 
+             xmlns:domain="clr-namespace:Imi.Project.Mobile.Domain" xmlns:extensions="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions"
+             x:DataType="viewmodels:CategoriesViewModel"
+             x:Name="categoriesPage"
+             x:Class="Imi.Project.Mobile.Pages.CategoriesPage"
+             Title="Categorieën"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" IconImageSource="account.png" Command="{Binding LougoutCommand}"  Priority="2" Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Style="{StaticResource PageStyle}" >
+                <ListView ItemsSource="{Binding  Categories}"
+                          HasUnevenRows="True"
+                      ItemTapped="ListView_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell x:DataType="domain:Category">
+                                <Frame CornerRadius="45" 
+                                       BackgroundColor="LightBlue" 
+                                       Padding="20,10"
+                                       Margin="10,10,10,10"
+                                      HasShadow="False"
+                                       >
+                                    <StackLayout VerticalOptions="Center" >
+                                        <Label Text="{Binding Name}"
+                                               TextColor="Black"/>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" 
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels"
+              xmlns:domain="clr-namespace:Imi.Project.Mobile.Domain"
+             x:DataType="viewmodels:CUFishViewModel"
+             x:Class="Imi.Project.Mobile.Pages.CUFishPage"
+             Title="{Binding PageTitle}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" IconImageSource="account.png" Command="{Binding LougoutCommand}" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="Terug" IconImageSource="back.png" Command="{Binding GoBackCommand}" Priority="2" Order="Primary"></ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        
+        <ScrollView >
+            <Grid >
+                <Image Source="background.png" Aspect="Fill"  Opacity=".6" />
+                <StackLayout Padding="10" Margin="20" VerticalOptions="CenterAndExpand" >
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}" >Naam</Label>
+                        <Entry  Text="{Binding Name}" Placeholder="Naam"  Keyboard="Text"></Entry>
+                        <Label Text="{Binding NameError}"
+                           IsVisible="{Binding NameError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}" >Prijs</Label>
+                        <Entry  Text="{Binding Price}" Placeholder="Voornaam"  Keyboard="Text"></Entry>
+                        <Label Text="{Binding PriceError}"
+                           IsVisible="{Binding PriceError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}" >Maxgewicht</Label>
+                        <Entry  Text="{Binding MaxWeight}" Placeholder="Familie naam"  Keyboard="Text"></Entry>
+                        <Label Text="{Binding MaxWeightError}"
+                           IsVisible="{Binding MaxWeightError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Style="{StaticResource LabelStyle}">Mingewicht</Label>
+                        <Entry  Text="{Binding MinWeigth}" Placeholder="Uw Email" Keyboard="Email"></Entry>
+                        <Label Text="{Binding MinWeigthError}" 
+                           IsVisible="{Binding MinWeigthError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Style="{StaticResource LabelStyle}">Aankoming-Datum</Label>
+                        <DatePicker Date="{Binding DateOfArrival }" />
+                        
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Style="{StaticResource LabelStyle}">Categories</Label>
+                        <Picker ItemsSource="{Binding Categories}" SelectedItem="{Binding Selectedcategory}">
+                        </Picker>
+                        <Label Text="{Binding DateOfArrivalError}" 
+                               IsVisible="{Binding CategoryError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Style="{StaticResource LabelStyle}">Afkomstig_Land</Label>
+                        <Picker ItemsSource="{Binding Countries}" SelectedItem="{Binding SelectedCountry}">
+
+                        </Picker>
+                        <Label Text="{Binding DateOfArrivalError}" 
+                               IsVisible="{Binding OriginCountryError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+  
+                    <StackLayout>
+                        <Button  Text="Opslaan" Command="{Binding SaveCommand}" Style="{StaticResource ButtonStyle}" ></Button>
+                        <Button  Text="Annuleren" Command="{Binding GoBackCommand}" Style="{StaticResource ButtonCancel}" ></Button>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:domain="clr-namespace:Imi.Project.Mobile.Domain" 
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin" xmlns:urisource="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions"
+             x:DataType="viewmodels:FishesViewModel"
+             x:Class="Imi.Project.Mobile.Pages.FishesPage"
+             Title="Vissen"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Toevoegen" IconImageSource="add.png" Command="{Binding AddCommand}"  Priority="1" Order="Primary"></ToolbarItem>
+        <ToolbarItem Text="UitLoggen" IconImageSource="account.png" Command="{Binding LougoutCommand}" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="Terug" IconImageSource="back.png" Command="{Binding GoBackCommand}" Priority="2" Order="Primary"></ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource PageStyle}">
+                <ListView ItemsSource="{Binding  FishsByCategory}"
+                           HasUnevenRows="True"
+                           ItemTapped="ListView_ItemTapped">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell x:DataType="domain:Fish">
+                                <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <controls:CircleImage
+                                       HeightRequest="60"
+                                        HorizontalOptions="CenterAndExpand"
+                                        VerticalOptions="CenterAndExpand"
+                                        Aspect="Fill"
+                                       WidthRequest="66"
+                                       Grid.RowSpan="2"
+                                       Source="{Binding UrlImage}">
+                                        <Image.Behaviors>
+                                            <urisource:TlsSourceBehavior 
+                                            IgnoreCertificateErrors="True" />
+                                        </Image.Behaviors>
+                                    </controls:CircleImage>
+                                    <Label Grid.Column="1"
+                                       Text="{Binding Name}"
+                                       VerticalOptions="End"/>
+                                    <Label Grid.Column="1"
+                                       Grid.Row="1"
+                                       VerticalOptions="Start"
+                                       Text="{Binding Price}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

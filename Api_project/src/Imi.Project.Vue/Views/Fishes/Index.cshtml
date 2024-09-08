@@ -1,0 +1,361 @@
+﻿<div class="container" id="container">
+<div class="text-center">
+    <h1 class="display-4">Vissen</h1>
+</div>
+<div id="app">
+       <div class="col-md-12">
+        <button class="btn btn-info" v-if="!isEidtOrCreate" v-on:click.prevent="toEditMode(false)">Toevoegen</button>
+       </div>
+       <br />
+         <div v-if="!isEidtOrCreate" class="input-group" style="height: 100%">
+                <input class="form-control input-lg border-primary"  v-model="search" placeholder="Zoek ......." />
+                <div class="input-groupd-append">
+                    <button type="submit" class="btn btn-success" style="height: 100%" v-on:click="searchFishes">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-fill" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </div>
+         </div>
+            <br/>
+ 
+    <div class="row" v-if="!isEidtOrCreate" >
+             <div class="col-md-5" style="margin-bottom:20px" v-for="fish in fishes" >
+                        <div class="card text-center">
+                                <img v-bind:src="getImageSource(fish)"  class="card-img-top" style="height:200px"/>
+                            <div class="card-body">
+                              <h5 class="card-title" >{{fish.name}}</h5>
+                              <p class="card-text" >{{fish.price}} €</p>
+                               <button type="button" class="btn btn-primary"
+                               v-on:click.prevent="toEditMode(true,fish)">Wijzigen</button>
+                               <button type="button" class="btn btn-danger"
+                               v-on:click.prevent="deleteClick(fish.id)">Verwijderen</button>
+                                <button type="button" class="btn btn-warning"
+                               v-on:click.prevent="editFoto(fish.id)">Foto wijzigen</button>
+                            </div>
+                      </div>
+             </div>        
+   </div>
+   <div class="col-md-6">
+        <div  v-if="currentFish">
+              <div v-if="errors">
+                <ul>
+                  <li class="alert-danger" v-for="error in errors">{{ error }}</li>
+                </ul>
+              </div>             
+            <div class="form-group">
+                <h6>Naam</h6>
+                <input class="form-control" v-model="currentFish.name" required />
+            </div>
+            <div class="form-group">
+                <h6>Prijs</h6>
+                <input type="number" class="form-control" v-model="currentFish.price" required />
+            </div>
+            <div class="form-group">
+                <h6>Maximum gewicht</h6>
+                <input type="number" class="form-control" v-model="currentFish.maxWeight" required/>
+            </div>
+            <div class="form-group">
+                <h6>Minimaal gewicht</h6>
+                <input type="number" class="form-control" v-model="currentFish.minWeigth" required/>
+            </div>
+               <div class="form-group">
+                <h6>Datum-van-aankomst</h6>
+                <input type="datetime-local" class="form-control" v-model="currentFish.dateOfArrival"/>
+            </div>
+            <div class="form-group">
+                <h6>Categorie</h6>
+                <select  v-model="currentFish.categoryId" class="form-control">
+                    <option v-for="category in categories" v-bind:value="category.id">{{category.name}}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h6>Land-van-herkomst</h6>
+                <select  v-model="currentFish.originCountryId" class="form-control">
+                    <option v-for="country in countries" v-bind:value="country.id">{{country.name}}</option>
+                </select>
+            </div>  
+            <div class="form-group">
+                <h6>Verwerken</h6>
+                <div class="form-check" v-for="processing in fishProcessings" >
+                    <input id="processings" type="checkbox"  v-bind:value="processing.id" v-model="currentFish.fishProcessingIds"/>
+                    <label for="processings" >{{processing.name}}</label>
+                </div>
+            </div>            
+        
+            <div class="btn-group">
+                <button type="submit" class="btn mr-4 btn-warning" v-on:click.prevent="saveFish">Opslaan</button>
+                <button class="btn btn-primary"   v-on:click.prevent="cancel" >Annuleren</button>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="form-group" v-if="isEditImage">
+                <label>Foto</label>
+                <input  type="file" class="form-control"  v-on:change="onFileSelected"/>
+                <br />
+                <button class="btn btn-warning" v-on:click.prevent="uploadImage(fish.id)" >oplsaan</button>
+                <button class="btn btn-primary"   v-on:click.prevent="cancel" >Cancel</button>
+
+         </div>
+
+</div>
+</div>
+
+@section scripts{
+
+    
+    <script>
+       const token = JSON.parse(sessionStorage.getItem("token"));
+       const urlFishes = 'https://localhost:5001/api/Fishs';
+       const urlCategories = 'https://localhost:5001/api/Categories';
+       const urlCountries = 'https://localhost:5001/api/OriginCountry';
+       const urlFishProcessing = 'https://localhost:5001/api/FishProcessing';
+         let axiosConfig;
+        if (token != null) {
+            axiosConfig = { headers: { Authorization: `Bearer ${token.token}` } };
+        }
+
+        let app = new Vue({
+            el: '#app',
+            data: {
+                fishes: null,
+                currentFish: null,
+                isEidtOrCreate: false,
+                feedback: '',
+                categories: '',
+                countries: '',
+                isEditMode: false,
+                selectedFile: null,
+                fishProcessings: '',
+                isEditImage: false,
+                fish:null,
+                search:null,
+                errors: null,
+              
+               
+               
+            },
+            created: function() {
+                let self = this;
+                self.getFishes();
+            },
+            methods: {
+                getFishes: function() {
+                    let self = this;
+                    axios.get(urlFishes, axiosConfig)
+                        .then(response => (self.fishes = response.data))
+                        .catch(function (err){
+                            console.log(err);
+                        });
+                },
+                getImageSource: function(fish) {
+                    return fish.urlImage;
+                },
+                deleteClick: function(id) {
+                    let self = this;
+
+                            if (confirm(`Are you sure you want to delete fish with Id ${id} ?`)) {
+                                axios.delete(`${urlFishes}/${id}`, axiosConfig)
+                                    .then(function(response) {
+                                        self.feedback = `Fish  with ID ${id} has been deleted`;
+                                         alert(self.feedback);
+                                        self.fishes.forEach(function(fish, i) {
+                                            if (fish.id === id) {
+                                                self.fishes.splice(i, 1);
+                                            }
+                                           
+                                        })
+                                    })
+                                    .catch(function(error) { alert(error.message); });
+                            } 
+            
+                },
+
+                toEditMode: function(isEditMode, fish) {
+                    let self = this;
+                    self.isEditMode = isEditMode;
+                    self.isEidtOrCreate = true;
+                    self.getCategories();
+                    self.getCountries();
+                    self.getFishProcessings();
+
+                    if (!self.isEditMode) {
+                        self.currentFish = {
+                            name: "",
+                            categoryId: 1,
+                            originCountryId:1,
+                            dateOfArrival: "",
+                            minWeigth: "",
+                            maxWeight: "",
+                            price: "",
+                            fishProcessingIds: []
+                        };
+                      
+
+                    } else {
+                        self.currentFish = fish;
+                        self.currentFish.fishProcessingIds = [];
+                        fish.fishProcessings.forEach((object) => {
+                            self.currentFish.fishProcessingIds.push(object.id);
+                        });
+                    }
+
+                },
+                getCategories: function() {
+                    let self = this;
+                    axios.get(urlCategories,axiosConfig)
+                        .then(function(response) {
+                            self.categories = response.data;
+                        })
+                        .catch(err => console.log(err.message));
+                },
+                getCountries: function() {
+                    let self = this;
+                    axios.get(urlCountries,axiosConfig)
+                        .then(function(response) {
+                            self.countries = response.data;
+                        })
+                        .catch(err => console.log(err.message));
+                },
+                getFishProcessings: function() {
+                    let self = this;
+                    axios.get(urlFishProcessing,axiosConfig)
+                        .then(response => (self.fishProcessings = response.data))
+                        .catch(err => console.log(err.message));
+                },
+                saveFish: function() {
+                    let self = this;
+
+                    if (self.isEditMode) {
+                        axios.put(urlFishes, self.currentFish, axiosConfig)
+                            .then(function(response) {
+                                self.feedback = `Fish ${self.currentFish.name} with ID ${self.currentFish.id} has been modified`;
+                                 alert(self.feedback)
+                                self.isEidtOrCreate = false;
+                                self.currentFish = null;
+                                self.feedback = null;
+                                self.getFishes();
+                                self.errors = null;
+                            })
+                            .catch(function(error) {
+                                alert(error.message);
+                                self.IsVaild();
+                                return;
+                            });
+                            
+                    }
+                    else {
+                        axios.post(urlFishes, self.currentFish, axiosConfig)
+                            .then(function(response) {
+                                self.currentFish = response.data;
+                                self.feedback = `Fish ${self.currentFish.name} with ID ${self.currentFish.id} has been created`;
+                                alert(self.feedback)
+                                self.getFishes();
+                                self.isEidtOrCreate = false;
+                                self.currentFish = null;
+                                self.feedback = null;
+                                self.errors = null;
+                            })
+                            .catch(function(error) {
+                                console.log(error);
+                                alert(error.message);
+                                self.IsVaild();
+                                return;
+                            });
+                            
+                    }
+
+                },
+                cancel: function() {
+                    let self = this;
+                    self.isEidtOrCreate = false;
+                    self.isEditImage = false;
+                    self.fish = null;
+                    self.currentFish = null;
+                    self.errors = null;
+                },
+                onFileSelected: function(event) {
+                    let self = this;
+                    self.selectedFile = event.target.files[0];
+                },
+
+                uploadImage: function(id) {
+                    let self = this;
+                    let imageData = new FormData();
+                    if (self.selectedFile == null) {
+                        alert("Gelieve image te kiezen");
+                        return;
+                    }
+                    imageData.append("file", self.selectedFile, self.selectedFile.name);
+                    console.log(imageData.values.length);
+                    let url = `${urlFishes}/${id}/image`;
+                    axios.put(url, imageData, axiosConfig)
+                        .then(function(response) {
+                            self.fish = response.data;
+                            self.feedbackImage = `Image of fish wiht ID ${id} is gewijzigd`;
+                            self.getFishes();
+                            self.isEditImage = false;
+                            self.isEidtOrCreate = false;
+                            self.currentFish = null;
+                            alert(self.feedbackImage);
+                        })
+                        .catch(function(error) {
+                            alert(error.message);
+                        });
+                
+
+                },
+                editFoto: function(id){
+                    var self=this;
+                    self.isEditImage = true;
+                    self.isEidtOrCreate = true;
+                    axios.get(`${urlFishes}/${id}`,axiosConfig)
+                        .then(function(response) {
+                            self.fish = response.data;
+                            console.log(self.fish.id);
+                        })
+                        .catch(function(error) {
+                          alert(error.message);
+                        });
+                },
+                searchFishes:function(){
+                      let self = this;
+                    console.log(self.search);
+                    axios.get(`https://localhost:5001/api/Search?search=${self.search}`, axiosConfig)
+                        .then(function(response) {
+                            self.fishes = response.data;
+                            console.log(response);
+                        })
+                        .catch(err => alert(err.message));
+                        
+                },
+                IsVaild: function() {
+                    let self=this;
+                    self.errors = [];
+                    if (self.currentFish.name === "") {
+                        self.errors.push('Name is verplicht....Gelieve alle velden in te vullen');
+                    } else if (self.currentFish.price <= 0) {
+                        self.errors.push('Gelieve geldige prijs in te vullen')
+                    } else if (self.currentFish.minWeigth <= 0) {
+                        self.errors.push('Gelieve geldige Minimaal gewicht in te vullen')
+
+                    } else if (self.currentFish.maxWeight <= 0) {
+                        self.errors.push('Gelieve geldige Maximum gewicht in te vullen')
+
+                    } else {
+                       self.errors.push('Er is fout opgetreden!! check Datum')
+
+                    }
+                },
+                
+             
+
+                
+             }
+        
+            });
+    </script>
+}
+

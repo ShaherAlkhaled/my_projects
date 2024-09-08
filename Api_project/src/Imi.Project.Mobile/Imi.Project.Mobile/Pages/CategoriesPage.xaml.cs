@@ -1,0 +1,34 @@
+﻿using Imi.Project.Mobile.Domain;
+using Imi.Project.Mobile.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Imi.Project.Mobile.Pages
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class CategoriesPage : ContentPage
+    {
+
+    
+        public CategoriesPage()
+        {
+         
+            InitializeComponent();
+        }
+
+        private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var viewModel = (CategoriesViewModel) BindingContext;
+            var category = (Category)e.Item;
+
+            //pass control to the View Model (and give it the Id)
+            viewModel.ViewFishByCategoryCommand.Execute(category.Id);
+        }
+    }
+}

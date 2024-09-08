@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels" 
+             x:DataType="viewmodels:RegisterViewModel"
+             Title="Registeren"
+             x:Class="Imi.Project.Mobile.Pages.RegisterPage">
+    <ContentPage.Content>
+        
+        <ScrollView >
+            <Grid >
+                <Image Source="background.png" Aspect="Fill"  Opacity=".6" />
+                <StackLayout Padding="10" Margin="20" VerticalOptions="CenterAndExpand" >
+                    <StackLayout>
+                        <Label Style="{StaticResource ErrorLabel}" >Als u niet Akkoord met algemene voorwaarden,dan hebt u geen toegang naar deze app </Label>
+
+                        <Label Style="{StaticResource LabelStyle}" >Gebruikersnaam</Label>
+                        <Entry  Text="{Binding UserName}" Placeholder="Gebruikersnaam"  Keyboard="Text"></Entry>
+                        <Label Text="{Binding UserNameError}"
+                           IsVisible="{Binding UserNameError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}">E-mail</Label>
+                                <Entry  Text="{Binding Email }" Placeholder="Uw Email" Keyboard="Email"></Entry>
+                                <Label Text="{Binding EmailError}" 
+                           IsVisible="{Binding EmailError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                      </StackLayout>
+                      <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}">WachtWoord</Label>
+                                <Entry Text="{Binding Password}" Placeholder="Wachtwoord " Keyboard="Text"></Entry>
+                                <Label Text="{Binding PasswordError}" 
+                           IsVisible="{Binding PasswordError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                      </StackLayout>
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}">Bevestig_WachtWoord</Label>
+                        <Entry Text="{Binding ConfirmPassword}" Placeholder="Wachtwoord " Keyboard="Text"></Entry>
+                        <Label Text="{Binding ConfirmPasswordError}" 
+                           IsVisible="{Binding ConfirmPasswordError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Style="{StaticResource LabelStyle}">Geboorte_Datum</Label>
+                        <DatePicker Date="{Binding BirthDate }" />
+                        <Label Text="{Binding BirthDateError}" 
+                           IsVisible="{Binding BirthDateError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="0,20,0,10">
+                        <Label HorizontalOptions="StartAndExpand" Style="{StaticResource LabelStyle}">Akkoord met algemene voorwaarden</Label>
+                        <Switch IsToggled="{Binding HasApprovedTermsAndConditions}" HorizontalOptions="End"></Switch>
+                    </StackLayout>
+                    <StackLayout>
+                        <Button  Text="Opslaan" Command="{Binding RegisterCommand}" Style="{StaticResource ButtonStyle}" ></Button>
+                        <Button  Text="Annuleren" Command="{Binding GoBackCommand}" Style="{StaticResource ButtonCancel}" ></Button>
+                    </StackLayout>
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

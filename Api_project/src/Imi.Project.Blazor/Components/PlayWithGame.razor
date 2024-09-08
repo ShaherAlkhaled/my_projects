@@ -1,0 +1,56 @@
+﻿
+<table>
+         
+                        <thead>
+                            <tr class="align-content-center" colspan="4">  
+                                <th>
+                                <p class="font-weight-bolder btn-info"> @Question</p>
+                                </th>
+                            </tr>
+                             <tr class="align-content-center" colspan="4">  
+                                <th>
+                                <p class="font-weight-bolder btn-warning">Vraag : @TotalQuestion <span class="table-responsive btn-danger"> Juist antwoord : @CorrectAnswer</span></p>
+                                </th>
+                            </tr>
+                        </thead>
+                      <tbody>
+                        <tr class="table-responsive">
+                        
+                                @foreach(var item in Images)
+                                        {
+                                              <td class="border" @onclick=@(e => FindAnswer.InvokeAsync(item))>
+                                                    <img src="@item" width="200px" height="125px"  class="img-responsive"/>
+                                              </td>
+                                        }
+                      
+        
+                         </tr>
+                      </tbody>
+             
+           
+                        <tfoot>
+                            <td class="align-content-center font-italic" colspan="4">                     
+                                <p class="modal-header btn-outline-info">Je kent al <span class="align-content-xl-around">@CorrectAnswer</span>  van de <span >@TotalQuestion</span>  Afbeeldingen! </p>
+                            </td>
+                        </tfoot>
+</table>
+
+@code {
+    [Parameter]
+    public List<string> Images { get; set; } 
+
+    [Parameter]
+    public EventCallback<string> FindAnswer { get; set; }
+
+    [Parameter]
+    public string Question { get; set; }
+    [Parameter]
+
+   public int TotalQuestion { get; set; }
+
+   [Parameter]
+   public int CorrectAnswer { get; set; }       
+
+}
+
+

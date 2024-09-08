@@ -1,0 +1,18 @@
+﻿<h3 class="popover-header">Ende  Resultaat </h3>
+<p class="modal-header">Je kent al <span class="font-weight-bold alert-primary">@CorrectAnswer</span>  van de <span class="font-weight-bold" >@TotalQuestion</span>  Afbeeldingen! </p>
+ <button type="submit"class="btn btn-success alert-heading"@onclick=@StartGame>Spel opnieuw </button>
+
+
+
+@code {
+
+      [Parameter]
+
+   public int TotalQuestion { get; set; }
+
+   [Parameter]
+   public int CorrectAnswer { get; set; }
+    [Parameter]
+    public EventCallback StartGame { get; set; }
+
+}

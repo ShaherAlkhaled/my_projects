@@ -1,0 +1,173 @@
+﻿
+<div class="text-center">
+    <h1 class="display-4">Gebruiker inloggen</h1>
+</div>
+
+<div id="app" class="container" >
+   
+ <div class="col-md-6" v-if="!isLog">
+        <div class="text-center">
+            <h3 class="modal-header alert-danger">Inloggen is verplicht</h3>
+        </div>
+        <div>
+            <div class="form-group">
+                <h6>Email</h6>
+                <input type="email" class="form-control" v-model="user.email" placeholder="uw email" required style="width:500px;"  />
+            </div>
+            <div class="form-group">
+                <h6>Wachtwoord</h6>
+                <div class="btn-group">
+                    <input v-bind:type="type" class="form-control" v-model="user.password" placeholder="wachtwoord" style="width:470px;" required />
+                    <button v-on:click.prevent="showPassword"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                </div>
+              
+            </div>
+           
+            <div class="btn-group">
+                <button type="submit"  class="btn mr-4 btn-warning" v-on:click.prevent="getUser" > Inloggen</button>
+                <button class="btn btn-primary"   v-on:click.prevent="registerNewUser" >Registeren</button>
+            </div>
+        </div>
+</div>
+ <div class="row d-flex justify-content-center" v-if="newUser">
+ <div class="col-md-6"  >
+            <div class="form-group">
+                <h6>Gebruiker Naam</h6>
+                <input type="text" class="form-control" v-model="newUser.username" style="width:500px;" required />
+            </div>
+            <div class="form-group">
+                <h6>Uw-email</h6>
+                <input type="email" class="form-control" v-model="newUser.email" style="width:500px;" required />
+            </div>
+            <div class="form-group">
+                <h6>Wachtwoord</h6> 
+                <div class="btn-group">
+                    <input v-bind:type="type" class="form-control" v-model="newUser.password" placeholder="wachtwoord" style="width:470px;" required />
+                    <button v-on:click.prevent="showPassword"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="form-group">
+                <h6>Bevestig wachtwoord</h6>
+                 <div class="btn-group">
+                    <input v-bind:type="type" class="form-control" v-model="newUser.confirmPassword" placeholder="wachtwoord" style="width:470px;" required />
+                    <button v-on:click.prevent="showPassword"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="form-group">
+                <h6>Geboorte Datum</h6>
+                <input type="datetime-local" class="form-control" v-model="newUser.birthDate" style="width:500px;" required/>
+            </div>
+               
+             <div class="form-group ">
+                    <input id="newUserId" type="checkbox"  v-model="newUser.hasApprovedTermsAndConditions" required/>
+                    <label for="newUserId" >akkoord met algemene voorwaarden</label>           
+             </div>
+            <div class="btn-group">
+                <button class="btn  mr-4 btn-warning" v-on:click.prevent="createNewUser">Registeer</button>
+                <button class="btn btn-primary"   v-on:click.prevent="cancel" >Annuleren</button>
+            </div>
+    </div>  
+   </div>
+ </div>
+
+@section scripts{
+
+    
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data: {
+                user: {
+                    email:'',
+                    password:''
+
+                },
+                feedback: null,
+                isSuccess:false,
+                newUser: null,
+                type: "password",
+                isLog: false,
+            },
+            created: function() {
+                let self = this;
+                self.checkLogin();
+            },
+            methods: {
+                getUser: function() {
+                      let self = this;
+                    axios.post('https://localhost:5001/api/Accounts/login', self.user)
+                        .then(function(response) {
+                            self.isSuccess = true;
+                            self.feedback = `Inlogging is succes met email adres ${self.user.email}`;
+                            const token = response.data;
+                            sessionStorage.setItem('token', JSON.stringify(token));
+                            setTimeout(function() { self.feedback = null; }, 90000);
+                            self.user = null;
+                            location.assign("https://localhost:5002/fishes/index");
+                        })
+                        .catch(err => console.log(err));
+                        
+                },
+                registerNewUser: function(){
+                    let self = this;
+                    self.isLog = true;
+                      self.newUser = {
+                            username: "",
+                            email: "",
+                            password: "",
+                            confirmPassword: "",
+                            birthDate: "",
+                            hasApprovedTermsAndConditions: false
+
+                        }
+                },
+                 createNewUser: function(){
+                    let self = this;
+                     axios.post('https://localhost:5001/api/Accounts/register', self.newUser)
+                         .then(function(response) {
+                             console.log(response.data);
+                             self.feedback = `Je bent succes registeerd met gebruiknaam ${self.newUser.username}`;
+                             alert(self.feedback);
+                             self.cancel();
+                         })
+                         .catch(err => alert(`${err.message} \n\n Gelieve alle velden in te vullen of kies ander gebruiker naam`));
+
+                },
+                cancel: function() {
+                    var self=this;
+                    self.newUser = null;
+                    self.user = {
+                        email: '',
+                        password: ''
+
+                    };
+                    self.isLog = false;
+                },
+                showPassword:function() {
+                    var self = this;
+                   if(self.type === 'password') {
+                       self.type = 'text';
+                   } else {
+                       this.type = 'password';
+                   }
+                },
+                checkLogin: function() {
+                    const token = JSON.parse(sessionStorage.getItem("token"));
+                    let self = this;
+                    if (token == null) {
+                        self.isLog = false;
+                    } else {
+                        self.isLog = true;
+
+                    }
+                }
+              
+            }
+        });
+     
+       
+    </script>
+}
+
+
+

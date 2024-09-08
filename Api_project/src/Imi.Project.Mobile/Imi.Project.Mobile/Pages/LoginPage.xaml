@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:viewmodels="clr-namespace:Imi.Project.Mobile.ViewModels"
+             x:DataType="viewmodels:LoginViewModel"
+             mc:Ignorable="d"
+             x:Name="loginPage"
+             Title="Inloggen"
+             x:Class="Imi.Project.Mobile.Pages.LoginPage"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <ScrollView >
+            <Grid>
+                <Image Source="background.png" Aspect="Fill"  Opacity=".6" />
+                <StackLayout Padding="10" Margin="20" Spacing="20" VerticalOptions="Center" >
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}">E-mail</Label>
+                        <Entry  Text="{Binding Email }" Placeholder="Uw Email" Keyboard="Email"></Entry>
+                        <Label Text="{Binding EmailError}" 
+                           IsVisible="{Binding EmailError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label  Style="{StaticResource LabelStyle}">WachtWoord</Label>
+                        <Entry Text="{Binding Password}" Placeholder="Wachtwoord " Keyboard="Text"></Entry>
+                        <Label Text="{Binding PasswordError}" 
+                           IsVisible="{Binding PasswordError, Converter={StaticResource ErrorLabelVisibility}}"
+                           Style="{StaticResource ErrorLabel}"></Label>
+                    </StackLayout>
+                    <Button  Text="Inloggen" Command="{Binding LoginCommand}" Style="{StaticResource ButtonStyle}"></Button>
+                    <Button  Text="Registeren" Command="{Binding RegisterCommand}" Style="{StaticResource ButtonStyle}"></Button>
+                    <Button  Text="UserImi" Command="{Binding UserImiCommand}" Style="{StaticResource ButtonStyle}"></Button>
+                    <Button  Text="RefUser" Command="{Binding RefUserImiCommand}" Style="{StaticResource ButtonStyle}"></Button>
+                    <Button  Text="Admin" Command="{Binding AdminImiCommand}" Style="{StaticResource ButtonStyle}"></Button>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

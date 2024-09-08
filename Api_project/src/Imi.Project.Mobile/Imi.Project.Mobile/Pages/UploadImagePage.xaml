@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Imi.Project.Mobile.Pages.UploadImagePage"
+             Title="Afbeelding Toevoegen">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" IconImageSource="account.png" Command="{Binding LougoutCommand}" Priority="2" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="Terug" IconImageSource="back.png" Command="{Binding GoBackCommand}" Priority="2" Order="Primary"></ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#d7c3db">
+            <Button Text="Kies Afbeelding"
+                       Style="{StaticResource ButtonStyle}"
+                        Command="{Binding PickPhotoCommand}"/>
+
+            <Button Text="Afbeelding nemen"
+                         Style="{StaticResource ButtonStyle}"
+                        Command="{Binding TakePhotoCommand}"/>
+            <Image Source="{Binding FileImage}"
+                           WidthRequest="400"
+                           HeightRequest="220"
+                           />
+            <Label Text="{Binding FileName}"
+                           Style="{StaticResource LabelStyle}"/>
+         
+            <Button Text="Upload Photo"
+                            Style="{StaticResource ButtonStyle}"
+                            Command="{Binding UploadPhotoCommand}"/>
+            <Button  Text="Annuleren" Command="{Binding GoBackCommand}" Style="{StaticResource ButtonCancel}" ></Button>
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,187 @@
+﻿<div class="container" id="container">
+<div class="text-center">
+    <h1 class="display-4">Categorieën</h1>
+
+</div>
+
+<div id="app" class="row">
+
+    <div class="col-md-12">
+        <button class="btn btn-info" v-on:click.prevent="toEditMode(false)">Toevoegen</button>
+    </div>
+    <br />
+    <br />
+
+    <div class="row" v-if="!isEidtOrCreate" >
+             <div class="col-md-5" style="margin-bottom:20px" v-for="category in categories" >
+                        <div class="card text-center">
+                            <div class="card-body">
+                              <h5 class="card-title" >{{category.name}}</h5>
+                               <button type="button" class="btn btn-warning"
+                               v-on:click.prevent="toEditMode(true,category)">Wijzigen</button>
+                               <button type="button" class="btn btn-danger"
+                               v-on:click.prevent="deleteClick(category.id)">Verwijderen</button>
+                            </div>
+                      </div>
+             </div>        
+   </div>
+
+   <div class="col-md-6">
+        <div  v-if="currentCategory">
+              <div v-if="errors">
+                <ul>
+                  <li class="alert-danger" v-for="error in errors">{{ error }}</li>
+                </ul>
+              </div>             
+            <div class="form-group">
+                <h6>Naam</h6>
+                <input class="form-control" v-model="currentCategory.name"  />
+            </div>
+            <div class="btn-group">
+                <button class="btn mr-4 btn-warning" v-on:click.prevent="saveCategory">Opslaan</button>
+                <button class="btn btn-primary"   v-on:click.prevent="cancel" >Annuleren</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>
+
+
+@section scripts{
+   
+
+    <script>
+         const token = JSON.parse(sessionStorage.getItem("token"));
+         let axiosConfig;
+        if (token != null) {
+            axiosConfig = { headers: { Authorization: `Bearer ${token.token}` } };
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                categories: null,
+                currentCategory: null,
+                isReadOnly: true,
+                feedback: '',
+                isEditMode: false,
+                isEidtOrCreate:false,
+                errors : null,
+
+            },
+            created: function () {
+                let self = this;
+                self.getCategories();
+            },
+            methods: {
+                getCategories: function() {
+                    let self = this;
+                    axios.get('https://localhost:5001/api/Categories', axiosConfig)
+                        .then(response => (self.categories = response.data))
+                        .catch(err => console.log(err));
+                },
+
+                
+                toEditMode: function(isEditMode, category) {
+                    var self = this;
+                    self.isEditMode = isEditMode;
+                    self.isEidtOrCreate = true;
+                    if (!self.isEditMode) {
+                        self.currentCategory = {
+                            name: "",
+
+                        }
+                    } else {
+                        self.currentCategory = category;
+                    }
+
+                },
+
+                deleteClick: function(id) {
+                    let self = this;
+
+                    if (confirm(`Are you sure you want to delete Category with Id ${id} ?`)) {
+                        axios.delete(`https://localhost:5001/api/Categories/${id}`, axiosConfig)
+                            .then(function(response) {
+                                self.feedback = `Category  with ID ${id} has been deleted`;
+                                alert(self.feedback);
+                                self.categories.forEach(function(category, i) {
+                                    if (category.id === id) {
+                                        self.categories.splice(i, 1);
+                                    }
+
+                                });
+                            })
+                            .catch(function(error) { alert(error.message); });
+                    } 
+            
+                },
+                cancel: function() {
+                    let self = this;
+                    self.isEidtOrCreate = false;
+                    self.currentCategory = null;
+                    self.errors = null;
+                },
+
+                saveCategory: function() {
+                    let self = this;
+
+                    if (self.isEditMode) {
+                        let url = `https://localhost:5001/api/Categories`;
+                        axios.put(url, self.currentCategory, axiosConfig)
+                            .then(function(response) {
+                                self.feedback = `Category ${self.currentCategory.name} with ID ${self.currentCategory.id} has been modified`;
+                                alert(self.feedback);
+                                self.isEidtOrCreate = false;
+                                self.currentCategory = null;
+                                self.getCategories();
+                                self.errors = null;
+
+                            })
+                            .catch(function(error) {
+                                console.log(error);
+                                alert(error.message);
+                                self.IsVaild();
+                                return;
+                            });
+                            
+                    }
+                    else {
+                        let url = `https://localhost:5001/api/Categories`;
+                        axios.post(url, self.currentCategory, axiosConfig)
+                            .then(function(response) {
+                                self.currentCategory = response.data;
+                                self.categories.push(self.currentCategory);
+                                self.feedback = `Category ${self.currentCategory.name} with ID ${self.currentCategory.id} has been created`;
+                                alert(self.feedback)
+                                self.isEidtOrCreate = false;
+                                self.currentCategory = null;
+                                self.feedback = null;
+                                self.errors = null;
+
+                            })
+                            .catch(function(error) {
+                                console.log(error);
+                                alert(error.message);
+                                self.IsVaild();
+                                return;
+
+                            });
+                            
+                    }
+
+                },
+                IsVaild: function() {
+                    let self=this;
+                     if (self.currentCategory.name === "") {
+                         self.errors = [];
+                       self.errors.push('Name is verplicht ');
+                     }
+                }
+
+            }
+        });
+    </script>
+}

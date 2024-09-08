@@ -1,0 +1,28 @@
+﻿
+
+<EditForm Model="@User" OnValidSubmit="@(e => OnSaveClick.InvokeAsync(User))">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label for="email">Email: </label>
+        <InputText id="email" @bind-Value="User.Email" class="form-control" />
+        <ValidationMessage For="@(() => User.Email)" />
+    </div>
+    <div class="form-group">
+        <label for="password">WachtWoord: </label>
+        <InputText id="password" @bind-Value="User.Password" class="form-control" />
+        <ValidationMessage For="@(() => User.Password)" />
+    </div>
+    <button type="submit" class="btn btn-primary">Inloggen</button>
+   <button type="button" class="btn btn-warning" @onclick="OnRegisterClick">Registeren</button>
+</EditForm>
+
+@code {
+
+
+    [Parameter]
+    public UserAppilcation User { get; set; }
+    [Parameter]
+    public EventCallback<UserAppilcation> OnSaveClick { get; set; }
+    [Parameter]
+    public EventCallback OnRegisterClick { get; set; }
+}

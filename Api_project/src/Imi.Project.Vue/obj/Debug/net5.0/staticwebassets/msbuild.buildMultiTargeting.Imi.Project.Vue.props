@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Imi.Project.Vue.props" />
+</Project>

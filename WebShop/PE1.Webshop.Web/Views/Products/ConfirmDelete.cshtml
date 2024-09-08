@@ -1,0 +1,11 @@
+﻿
+<div class="alert alert-primary" role="alert">
+    Are you sure?
+    <a asp-controller="Products"
+       asp-action="ShowProducts" class="btn btn-primary">No</a>
+    <a asp-controller="Products"
+       asp-action="Delete"
+       asp-route-id="@ViewBag.Id" class="btn btn-danger">Yes</a>
+</div>
+
+

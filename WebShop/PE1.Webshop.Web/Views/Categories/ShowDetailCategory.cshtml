@@ -1,0 +1,19 @@
+﻿
+@model CategoriesShowDetailCategoryViewModel
+
+
+<h1> Toon details Category</h1>
+
+
+<div class="card mt-2">
+    <div class="card-header">
+        Id : @Model.CategoryId
+    </div>
+    <div class="card-body">
+        Name: <a asp-action="showproductsincategory" asp-controller="categories" asp-route-id="@Model.CategoryId" class="btn">  @Model.CategoryName</a> <br />
+    </div>
+</div>
+<br />
+<p class="mt-2">
+    <a asp-action="ShowCategories" asp-controller="Categories" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

@@ -1,0 +1,18 @@
+﻿
+@model CategoriesShowCategoriesViewModel
+
+
+
+
+<h1>Toon Alle Categories </h1>
+
+<div class="list-group">
+    @foreach (var category in Model.Categories)
+    {
+        <a asp-action="ShowDetailCategory" asp-controller="categories" asp-route-id="@category.CategoryId" class="list-group-item list-group-item-action btn-info">@category.CategoryName</a>
+    }
+</div>
+<p class="mt-2">
+    <br />
+    <a asp-action="index" asp-controller="Home" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

@@ -1,0 +1,17 @@
+﻿
+<h3>Search</h3>
+<div class="list-group">
+
+    @*<a class="list-group-item list-group-item-action"></a>*@
+    <a class="list-group-item list-group-item-action" asp-controller="Search" asp-action="ShowProductsByCategoryAndProperty" asp-route-property="Gaming" asp-route-categoryName="Computer">Toon Alle gaming Computer</a>
+    <a class="list-group-item list-group-item-action" asp-controller="Search" asp-action="ShowProductsByCategoryAndProperty" asp-route-property="Luxury" asp-route-categoryName="SmartPhone">Toon Alle Luxe SmartPhone</a>
+    <a class="list-group-item list-group-item-action" asp-controller="Search" asp-action="ShowProductsByPriceAndCategroy" asp-route-price="400" asp-route-categoryName="TV">Toon Alle product uit Tv en die duurde dan 400 euro</a>
+    <a class="list-group-item list-group-item-action" asp-controller="Search" asp-action="ShowProductsByPriceAndCategroy" asp-route-price="800" asp-route-categoryName="Large Electric">Toon Alle product uit Large Electric en die duurde dan 800 euro </a>
+    <a class="list-group-item list-group-item-action" asp-controller="Search" asp-action="ShowProductsByCategoryAndBrand" asp-route-brand="APPLE" asp-route-categoryName="SmartPhone">Toon Alle SmartPhone uit merk Apple</a>
+    <a class="list-group-item list-group-item-action " asp-controller="Search" asp-action="ShowProductsByCategoryAndBrand" asp-route-brand="BOSCH" asp-route-categoryName="Large Electric">Toon Alle groote electriche toestall uit merk Bosch</a>
+    <a class="list-group-item list-group-item-action " asp-controller="Search" asp-action="ShowProductsByCategoryAndBrand" asp-route-brand="HP" asp-route-categoryName="Computer">Toon Alle Computer uit merk HP</a>
+
+</div>
+<p>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

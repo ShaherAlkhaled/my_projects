@@ -1,0 +1,55 @@
+﻿
+@model ProductsShowProductDetailViewModel
+
+
+<h2>Product details</h2>
+
+<div>
+    <div class="card col-sm-6">
+        <img asp-append-version="true" src="/images/@Model.ImagePath" class="card-img-top mx-auto m-1" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.ProductName</h5>
+            <div class="card-text">
+                <dl>
+                    <dt>Properties</dt>
+                    @foreach (var property in Model.Properties)
+                    {
+                        <dd class=" d-inline">@property.Name,</dd>
+                    }
+                </dl>
+                <dl>
+                    <dt>Category</dt>
+
+                    <dd>@Model.ProductCategory</dd>
+
+                </dl>
+                <dl>
+                    <dt>Price</dt>
+
+                    <dd>@Model.ProductPrice</dd>
+
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Rating</dt>
+                    <dd style="font-size:large;color:goldenrod">
+
+                        @for (int star = 1; star <= 5; star++)
+                        {
+                            if (star <= Model.Rating)
+                            {
+                                <span class="icon-star" aria-hidden="true"></span>
+                            }
+                            else
+                            {
+                                <span class="icon-star-empty" aria-hidden="true"></span>
+                            }
+                        }
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br />
+<a asp-action="ShowProducts" asp-controller="Products" class="btn btn-outline-primary">&#9204;Back</a>

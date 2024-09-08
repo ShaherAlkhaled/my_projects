@@ -1,0 +1,17 @@
+﻿
+@model IEnumerable<PropertyDropDownViewModel>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Properties
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        @foreach (var property in Model)
+        {
+            <a class="dropdown-item "
+               asp-controller="Properties"
+               asp-action="ShowDetailProperty"
+               asp-route-id="@property.Id">@property.Name</a>
+        }
+    </div>
+</li>
+

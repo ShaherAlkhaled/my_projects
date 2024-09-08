@@ -1,0 +1,88 @@
+:root {
+    --blue: #34b7d0;
+}
+
+html {
+    background-color: #e4ede2;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: .5rem;
+    color: #1d3557;
+}
+
+body {
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "add-word words-to-learn"
+    "add-word feedback";
+}
+
+#header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #1d3557;
+}
+
+#feedback {
+    text-align: center;
+    grid-area: feedback;
+}
+
+#add-word-pair {
+    grid-area: add-word;
+    display: flex;
+    flex-flow: column;
+    gap: .25rem;
+}
+
+#words-to-learn {
+    grid-area: words-to-learn;
+    margin: 0 auto;
+}
+
+input, textarea, label, button, textarea {
+    display: block;
+    min-height: 1.5rem;
+    width: 100%;
+    margin: .25rem 0;
+}
+
+.known-word,
+.word-to-learn {
+    background-color: #e63946;
+    padding: 0.5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+.known-word {
+    background-color: #a8dadc;
+}
+
+.question {
+    font-weight: bold;
+    color: #457b9d;
+    text-decoration: underline;
+}
+
+
+
+/*to hide*/
+.error {
+    color: red;
+}
+
+#add-word-pair.hidden,
+.hidden {
+    display: none;
+}

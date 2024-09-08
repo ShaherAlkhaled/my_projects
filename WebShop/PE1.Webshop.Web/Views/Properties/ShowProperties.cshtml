@@ -1,0 +1,17 @@
+﻿
+@model PropertiesShowPropertiesViewModel
+
+<h1>Toon Alle Properties</h1>
+
+
+
+<div class="list-group">
+    @foreach (var property in Model.Properties)
+    {
+        <a asp-action="ShowDetailProperty" asp-controller="Properties" asp-route-id="@property.PropertyId" class="list-group-item list-group-item-action btn-info">@property.PropertyName</a>
+    }
+</div>
+<br />
+<p class="mt-2">
+    <a asp-action="index" asp-controller="Home" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

@@ -1,0 +1,27 @@
+﻿
+@model  IEnumerable<ProductsShowProductDetailViewModel>
+
+
+
+
+<div class="row " >
+    @foreach (var product in Model)
+    {
+        <div class="card col-md-3 a" >
+            
+              <img asp-append-version="true" src="/images/@product.ImagePath" class="card-img-top mx-auto m-1" alt="..." class="img-responsive" style="width:40%">
+           
+            <div class="card-body">
+                <h4 class="card-title">@product.ProductName</h4>
+                <h5 class="card-title">@product.ProductCategory</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@product.ProductPrice</h6>
+            </div>
+            <a asp-action="ShowProductDetail" asp-controller="Products" asp-route-id="@product.ProductId" class="btn btn-info">info </a><br>
+            <a asp-action="Edit" asp-controller="Products" asp-route-id="@product.ProductId" class="btn btn-outline-primary">Edit </a><br>
+            <a asp-action="ConfirmDelete" asp-controller="Products" asp-route-id="@product.ProductId" class="btn btn-danger">Delete </a><br>
+
+
+        </div>
+
+    }
+</div>

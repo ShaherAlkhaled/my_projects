@@ -1,0 +1,12 @@
+﻿
+@model SearchViewModel
+
+
+
+<h2>Products</h2>
+
+<partial name="_ProductCardPartial" model="Model.SortedProducts" />
+<br />
+<p class="mt-2">
+    <a asp-controller="Search" asp-action="Index" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

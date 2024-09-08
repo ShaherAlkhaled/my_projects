@@ -1,0 +1,13 @@
+﻿
+@model CategoriesShowProductsInCategoryViewModel
+
+
+<h1>Show Products In Category</h1>
+
+<h3>Products in: @Model.CategoryName </h3>
+
+<partial name="_ProductCardPartial" model="@Model.Products" />
+<br />
+<p>
+    <a asp-action="ShowDetailCategory" asp-controller="Categories" asp-route-id="@Model.CategoryId" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

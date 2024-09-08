@@ -1,0 +1,20 @@
+﻿
+
+@model PropertiesShowDetailPropertyViewModel
+
+
+
+<h1>Toon Detail Van Property</h1>
+
+<div class="card mt-2">
+    <div class="card-header">
+        Id : @Model.PropertyId
+    </div>
+    <div class="card-body">
+        Name :<a asp-action="ShowProductsThatHasThisProperty" asp-controller="Properties" asp-route-id="@Model.PropertyId" class="btn"> @Model.PropertyName<br /></a>
+    </div>
+</div>
+<br />
+<p class="mt-2">
+    <a asp-action="ShowProperties" asp-controller="Properties" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

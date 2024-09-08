@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js"></script>
+    <title>Word trainer</title>
+</head>
+<body>
+
+<header id="header">
+    <h1>Word trainer</h1>
+</header>
+
+<section id="feedback">
+    <h2>How am I doing?</h2>
+    <div id="stats-container"></div>
+</section>
+
+<section id="add-word-pair">
+    <h2>Add a new word pair</h2>
+    <label for="word-in-dutch">Woord in het Nederlands:</label>
+    <input id="word-in-dutch" type="text" value="bord">
+    <label for="word-in-english">Woord in het Engels:</label>
+    <input id="word-in-english" type="text" value="plate">
+    <label for="description-in-dutch">Beschrijving in het Nederlands:</label>
+    <textarea id="description-in-dutch">Het ding waarop je eten ligt.</textarea>
+    <label for="description-in-english">Beschrijving in het Engels</label>
+    <textarea id="description-in-english">You serve dinner on a ... .</textarea>
+    <button id="add-word">Add new word</button>
+    <button id="start-exercising">Start exercising</button>
+    <div id="error-list"></div>
+</section>
+
+<section id="words-to-learn">
+    <h2>Words I need to learn ...</h2>
+    <div id="word-container"></div>
+</section>
+
+<section id="exercises">
+    <h2 id="question">Hoe zeg je ... in het Engels?</h2>
+    <input id="answer" type="text">
+    <button id="give-answer">Antwoord indienen.</button>
+    <button id="reset">Probeer opnieuw.</button>
+</section>
+
+</body>
+</html>

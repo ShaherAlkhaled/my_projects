@@ -1,0 +1,11 @@
+﻿@model PropertiesShowProductsThatHasThisProperty
+
+<h1>Products</h1>
+
+<h3>Products that has this property: @Model.PropertyName </h3>
+
+<partial name="_ProductCardPartial" model="@Model.Products" />
+<br />
+<p class="mt-2">
+    <a asp-action="ShowDetailProperty" asp-controller="Properties" asp-route-id="@Model.PropertyId" class="btn btn-outline-primary">&#9204;Back</a>
+</p>

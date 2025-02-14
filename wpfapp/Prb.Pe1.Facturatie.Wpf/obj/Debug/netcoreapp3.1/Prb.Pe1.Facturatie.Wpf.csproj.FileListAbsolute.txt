@@ -1,0 +1,136 @@
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csprojAssemblyReference.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\Opdracht 1\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csprojAssemblyReference.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.AssemblyReference.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.AssemblyReference.cache
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\G_B\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.sourcelink.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE1\st-2021-2-s1g1-pe1-Shaher-Alkhaled-howest-be\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.exe
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.deps.json
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.json
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.runtimeconfig.dev.json
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\bin\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.cache
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf_MarkupCompile.lref
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.g.resources
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfoInputs.cache
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.AssemblyInfo.cs
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.csproj.CoreCompileInputs.cache
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.sourcelink.json
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.dll
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.pdb
+D:\programmeren\Repo\my_projects\wpfapp\Prb.Pe1.Facturatie.Wpf\obj\Debug\netcoreapp3.1\Prb.Pe1.Facturatie.Wpf.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Prb.Pe1.Facturatie.Wpf/1.0.0": {
+        "runtime": {
+          "Prb.Pe1.Facturatie.Wpf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prb.Pe1.Facturatie.Wpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,1 +1,1 @@
-![Overzicht applicatie](images/facturatie.png)
+![Overzicht applicatie](images/facturatie.gif)

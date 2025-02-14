@@ -1,0 +1,39 @@
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.exe
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.deps.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.runtimeconfig.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.runtimeconfig.dev.json
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.csprojAssemblyReference.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf_MarkupCompile.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf_MarkupCompile.lref
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.g.resources
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.AssemblyInfoInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.AssemblyInfo.cs
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.csproj.CoreCompileInputs.cache
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.dll
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.pdb
+D:\Graduaat Programmeren\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.genruntimeconfig.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.exe
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.deps.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.runtimeconfig.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.runtimeconfig.dev.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.dll
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\bin\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.pdb
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf_MarkupCompile.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf_MarkupCompile.lref
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.g.resources
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.AssemblyInfoInputs.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.AssemblyInfo.cs
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.csproj.CoreCompileInputs.cache
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.sourcelink.json
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.dll
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.pdb
+D:\programmeren\S1\Programmering Basics\Opdrachten\PE2\st-2021-2-g1-pe2-Shaher-Alkhaled-howest-be\Prb.2021-2.PE2.Wpf\obj\Debug\netcoreapp3.1\Prb.2021-2.PE2.Wpf.genruntimeconfig.cache

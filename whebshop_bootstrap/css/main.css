@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* navbar */
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+    background-color: rgb(56, 146, 250);
+}
+/* carousel slide */
+.carousel-item img{
+    height: 100vh;
+}
+.myicon{
+    color:rgb(19, 11, 241);
+    font-size: 30px;
+    
+}
+/* .carousel-caption */
+.carousel-caption{
+    background-color:#6bc3ff;
+    border-radius: 30px;
+    bottom: 100px;
+    padding: 20px;
+}
+
+.carousel-caption h2{
+    font-size: 30px;
+    margin-bottom: 10px
+    ;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-caption:hover{
+    background: linear-gradient(90deg, rgba(4,213,242,1) 85%, rgba(55,186,244,1) 99%);
+    transition:ease, 0.7s ;
+   
+}
+.btn-dark:hover{
+    background-color: rgb(234, 96, 96);
+    border-radius: 20px;
+    transition: ease all .7s;
+}
+/* .carousel-indicators */
+.carousel-indicators button{
+
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background-color: blue !important;
+
+
+}
+.carousel-indicators button:hover{
+    background-color: rgb(255, 81, 0) !important;
+}
+
+/* offcanvas */
+
+.offcan-img{
+width: 250px !important;
+height: 300px !important;
+}
+.offcan-img:hover{
+    transform: skew(-5deg);
+    transition: ease all 1s;
+}
+.offcan-price{
+    font-weight: bold;
+    color:aqua;
+}
+.offcanvas_header{
+    color: red;
+
+}
+/* products */
+.text-header{
+    border-bottom: red solid 5px !important;
+   
+}
+
+.btn-primary{
+    background-color: rgb(133, 177, 243);
+}
+.btn-primary:hover{
+    background-color: rgb(226, 58, 58);
+    border-radius: 20px;
+    transition: 1s ease all;
+
+}
+
+.blue{
+    color: blue !important;
+}
+.bluecimon{
+    color:rgb(33, 113, 233) !important;
+}
+.bluecimon:hover{
+    color:crimson !important;
+    transition: all ease 1s;
+    cursor: pointer;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+   
+    height: 300px;
+    width: 100%;
+}
+
+.card img:hover{
+
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    font-size: 30px;
+
+
+}
+
+#products{
+    background-color: rgb(179, 230, 250);
+}
+
+.modal img{
+    height: 300px !important;
+}
+
+/* contact */
+
+.contact{
+    height: 60vh;
+    background-image: url(../images/logo.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.contact button{
+    width: 120px;
+    border-radius:  0px 20px 20px 0px  !important;
+}
+.inputcontact{
+    border-radius: 0px !important;
+}
+.bestselling img:hover{
+    transform: rotate(5deg) scale(1.1);
+    transition: ease all 1s;
+}
+
+.accordion-button{
+    background-color: aqua !important;
+    color:white;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+
+}
+.accordion-button::after{
+    display: none;
+}
+footer{
+    background-color: rgb(5, 145, 205);
+    color: white;
+}
+
+/* scrollbar  */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(41, 138, 223); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+
+  /* iframe  */
+  iframe{
+    height: 300px;
+
+  }

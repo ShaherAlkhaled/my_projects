@@ -149,7 +149,7 @@ using Blazored.Toast.Services;
         {
             this.checkLogIn = service.CheckLogIn();
             NavigationManager.NavigateTo("fishes");
-            toastService.ShowInfo("Gelieve de eerste uit te loggen");
+            toastService.ShowInfo("U bent ingelogd");
         }
         catch (Exception ex)
         {

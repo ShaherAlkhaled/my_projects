@@ -9,6 +9,10 @@
       {
         "Path": "Imi.Project.Vue\\Imi.Project.Vue.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Imi.Project.Blazor\\Imi.Project.Blazor.csproj",
+        "Action": "Start"
       }
     ]
   }

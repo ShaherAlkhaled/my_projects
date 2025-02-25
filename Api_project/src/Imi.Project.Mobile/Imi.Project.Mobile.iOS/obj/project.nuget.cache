@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1kcoty5Ewuo=",
+  "dgSpecHash": "5uuduoIX1CI=",
   "success": true,
-  "projectFilePath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
+  "projectFilePath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alkha\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\alkha\\.nuget\\packages\\freshmvvm\\4.0.1\\freshmvvm.4.0.1.nupkg.sha512",

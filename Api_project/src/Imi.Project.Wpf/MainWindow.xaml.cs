@@ -318,9 +318,9 @@ namespace Imi.Project.Wpf
                 if (fish.IsSuccess)
                 {
                     txtName.Text = fish.Data.Name;
-                    txtPrice.Text = fish.Data.Price;
-                    txtMaxGewicht.Text = fish.Data.MaxWeight;
-                    txtMinGewicht.Text = fish.Data.MinWeigth;
+                    txtPrice.Text = fish.Data.Price.ToString();
+                    txtMaxGewicht.Text = fish.Data.MaxWeight.ToString();
+                    txtMinGewicht.Text = fish.Data.MinWeigth.ToString();
                     lblCategory.Content = fish.Data.CategoryName;
                     lblOriginCountry.Content = fish.Data.OriginCountryName;
                     lblDateOfArrival.Content = fish.Data.DateOfArrival;

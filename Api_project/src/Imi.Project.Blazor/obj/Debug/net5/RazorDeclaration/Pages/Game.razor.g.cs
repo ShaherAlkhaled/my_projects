@@ -12,96 +12,96 @@ namespace Imi.Project.Blazor.Pages
     using global::System.Linq;
     using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 1 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using System.Net.Http
 
 #nullable disable
     ;
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Authorization
 
 #nullable disable
     ;
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization
 
 #nullable disable
     ;
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms
 
 #nullable disable
     ;
 #nullable restore
-#line 5 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 5 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing
 
 #nullable disable
     ;
 #nullable restore
-#line 6 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 6 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web
 
 #nullable disable
     ;
 #nullable restore
-#line 7 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 7 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.JSInterop
 
 #nullable disable
     ;
 #nullable restore
-#line 8 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 8 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor
 
 #nullable disable
     ;
 #nullable restore
-#line 9 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 9 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Shared
 
 #nullable disable
     ;
 #nullable restore
-#line 10 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 10 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using BlazorInputFile;
 
 #nullable disable
 #nullable restore
-#line 11 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 11 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Models;
 
 #nullable disable
 #nullable restore
-#line 12 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 12 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using System.Threading.Tasks;
 
 #nullable disable
 #nullable restore
-#line 13 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 13 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Components;
 
 #nullable disable
 #nullable restore
-#line 14 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 14 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Services;
 
 #nullable disable
 #nullable restore
-#line 15 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 15 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Services.Interfaces;
 
 #nullable disable
 #nullable restore
-#line 16 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 16 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Blazored.Toast;
 
 #nullable disable
 #nullable restore
-#line 17 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 17 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Blazored.Toast.Services;
 
 #line default
@@ -110,7 +110,7 @@ using Blazored.Toast.Services;
     [global::Microsoft.AspNetCore.Components.RouteAttribute(
     // language=Route,Component
 #nullable restore
-#line 1 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 1 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
       "/game"
 
 #line default
@@ -127,7 +127,7 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 41 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 41 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
        
     private GameItem gameItem=new GameItem();
     private bool showGameStart=true;
@@ -215,7 +215,7 @@ using Blazored.Toast.Services;
 
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 5 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 5 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
         NavigationManager
 
 #line default
@@ -223,7 +223,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 5 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 5 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
                           NavigationManager
 
 #line default
@@ -233,7 +233,7 @@ using Blazored.Toast.Services;
          = default!;
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
         IAccountService
 
 #line default
@@ -241,7 +241,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
                         accountService
 
 #line default
@@ -251,7 +251,7 @@ using Blazored.Toast.Services;
          = default!;
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
         IToastService
 
 #line default
@@ -259,7 +259,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
                       toastService
 
 #line default
@@ -269,7 +269,7 @@ using Blazored.Toast.Services;
          = default!;
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
         IGameService
 
 #line default
@@ -277,7 +277,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\Game.razor"
                      _gameService
 
 #line default

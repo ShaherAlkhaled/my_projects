@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wTGTBja/TyM=",
+  "dgSpecHash": "QanKb15f+uE=",
   "success": true,
-  "projectFilePath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Wpf\\Imi.Project.Wpf.csproj",
+  "projectFilePath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Wpf\\Imi.Project.Wpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alkha\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\alkha\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

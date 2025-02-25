@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj": {}
+    "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj": {}
   },
   "projects": {
-    "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj": {
+    "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
+        "projectUniqueName": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
         "projectName": "Imi.Project.Api.Core",
-        "projectPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
+        "projectPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
         "packagesPath": "C:\\Users\\alkha\\.nuget\\packages\\",
-        "outputPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\obj\\",
+        "outputPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -95,18 +96,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj": {
+    "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj",
+        "projectUniqueName": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj",
         "projectName": "Imi.Project.Api.Infrastructure",
-        "projectPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj",
+        "projectPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alkha\\.nuget\\packages\\",
-        "outputPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\obj\\",
+        "outputPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +129,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj": {
-                "projectPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj"
+              "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj": {
+                "projectPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj"
               }
             }
           }
@@ -143,7 +144,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -188,18 +190,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj": {
+    "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj",
+        "projectUniqueName": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj",
         "projectName": "Imi.Project.Api",
-        "projectPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj",
+        "projectPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\Imi.Project.Api.csproj",
         "packagesPath": "C:\\Users\\alkha\\.nuget\\packages\\",
-        "outputPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\obj\\",
+        "outputPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -221,8 +223,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj": {
-                "projectPath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj"
+              "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj": {
+                "projectPath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Infrastructure\\Imi.Project.Api.Infrastructure.csproj"
               }
             }
           }
@@ -236,7 +238,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -298,7 +301,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

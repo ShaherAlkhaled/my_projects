@@ -14,7 +14,7 @@ androidlinkskip=
 androidsdkbuildtoolsversion=32.0.0
 androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
-javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.8.101-hotspot\
+javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.12\
 androidsequencepointsmode=none
 xamarinandroidversion=13.2.2-0
 monosymbolarchive=false
@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638614110115086541
+_nugetassetstimestamp=638760872973847378
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\g_b\repo\my_projects\api_project\src\imi.project.mobile\imi.project.mobile.android\imi.project.mobile.android.csproj
+projectfullpath=d:\programmeren\repo\my_projects\api_project\src\imi.project.mobile\imi.project.mobile.android\imi.project.mobile.android.csproj

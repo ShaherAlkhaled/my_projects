@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Imi.Project.Api\\Imi.Project.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Imi.Project.Blazor\\Imi.Project.Blazor.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Imi.Project.Vue\\Imi.Project.Vue.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Imi.Project.Wpf\\Imi.Project.Wpf.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=b1ba8e58-d095-49f3-b43d-efdae7fbf851</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.exe">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.exe">
       <PackagePath>entrypoint\Imi.Project.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alkha\.nuget\packages\fluentvalidation\10.4.0\lib\netstandard2.0\FluentValidation.dll">
@@ -220,7 +220,7 @@
     <AppxPackagedFile Include="C:\Users\alkha\.nuget\packages\xamarin.forms\5.0.0.2337\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile\bin\Debug\netstandard2.0\Imi.Project.Mobile.dll">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile\bin\Debug\netstandard2.0\Imi.Project.Mobile.dll">
       <PackagePath>Imi.Project.Mobile.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alkha\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -244,237 +244,237 @@
     <AppxPackagedFile Include="C:\Users\alkha\.nuget\packages\syncfusion.xamarin.sfcombobox\20.1.0.50\lib\uap10.0\Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png">
       <PackagePath>Syncfusion.SfComboBox.XForms.UWP\dropdownbuttonimage.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\account.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\account.png">
       <PackagePath>account.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\add.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\add.png">
       <PackagePath>add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\back.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\back.png">
       <PackagePath>back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\logout.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\logout.png">
       <PackagePath>logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\more.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\more.png">
       <PackagePath>more.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\ok.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\ok.png">
       <PackagePath>ok.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\save.png">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\save.png">
       <PackagePath>save.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.xr.xml">
       <PackagePath>Imi.Project.Mobile.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -486,10 +486,10 @@
     <AppxPackagedFile Include="C:\Users\alkha\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\Imi.Project.Mobile.UWP.exe">
+    <AppxPackagedFile Include="D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\Imi.Project.Mobile.UWP.exe">
       <PackagePath>Imi.Project.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

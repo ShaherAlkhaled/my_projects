@@ -4,7 +4,7 @@
 @inject IToastService toastService;
 
 <h3>Inloggin</h3>
-<div class="mt-3">
+<div class="mt-5">
 
 
     @if (user != null)
@@ -15,7 +15,7 @@
     {
         <Register NewUser="newUser" RegisterNewUser="CreateNewUser" OnCancelClick="Cancel" ></Register>
     }
-    
+
 </div>
 
 
@@ -26,10 +26,30 @@
     private UserAppilcation user=new UserAppilcation();
 
     private RegisterAppilcation newUser;
+    private bool checkLogIn;
 
     protected override async Task OnInitializedAsync()
     {
-        await service.Logout();
+
+
+        await CheckLogIn();
+
+
+
+    }
+    public async Task CheckLogIn()
+    {
+        try
+        {
+            this.checkLogIn = service.CheckLogIn();
+            NavigationManager.NavigateTo("fishes");
+            toastService.ShowInfo("Gelieve de eerste uit te loggen");
+        }
+        catch (Exception ex)
+        {
+            await service.Logout();
+        }
+
     }
 
 
@@ -41,6 +61,7 @@
             await service.Login(user);
             toastService.ShowInfo("U bent met successfully ingelogd");
             NavigationManager.NavigateTo("fishes");
+            
         }
         catch (Exception ex)
         {
@@ -66,6 +87,7 @@
     {
         this.user = new UserAppilcation();
         this.newUser = null;
+ 
     }
 
     public  async Task RegisterNewUser()

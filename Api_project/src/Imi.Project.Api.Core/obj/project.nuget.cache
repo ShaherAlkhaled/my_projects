@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/9A831RazEg=",
+  "dgSpecHash": "G0fvp45sA+s=",
   "success": true,
-  "projectFilePath": "D:\\G_B\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
+  "projectFilePath": "D:\\programmeren\\Repo\\my_projects\\Api_project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alkha\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\alkha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

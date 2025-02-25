@@ -26,13 +26,13 @@ namespace Imi.Project.Wpf.ApiResponseModels.Fish
         public string ImagePath { get; set; }
 
         [JsonPropertyName("price")]
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
         [JsonPropertyName("maxWeight")]
-        public string MaxWeight { get; set; }
+        public decimal MaxWeight { get; set; }
 
         [JsonPropertyName("minWeigth")]
-        public string MinWeigth { get; set; }
+        public decimal MinWeigth { get; set; }
 
         [JsonPropertyName("dateOfArrival")]
         public string DateOfArrival { get; set; }

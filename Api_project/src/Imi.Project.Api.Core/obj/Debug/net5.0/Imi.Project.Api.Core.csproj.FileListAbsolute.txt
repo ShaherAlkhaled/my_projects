@@ -23,3 +23,16 @@ D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Im
 D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\refint\Imi.Project.Api.Core.dll
 D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.pdb
 D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\ref\Imi.Project.Api.Core.dll
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\bin\Debug\net5.0\Imi.Project.Api.Core.deps.json
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\bin\Debug\net5.0\Imi.Project.Api.Core.dll
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\bin\Debug\net5.0\Imi.Project.Api.Core.pdb
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.csproj.AssemblyReference.cache
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.AssemblyInfoInputs.cache
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.AssemblyInfo.cs
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.csproj.CoreCompileInputs.cache
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.sourcelink.json
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.dll
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\refint\Imi.Project.Api.Core.dll
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\Imi.Project.Api.Core.pdb
+D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Api.Core\obj\Debug\net5.0\ref\Imi.Project.Api.Core.dll

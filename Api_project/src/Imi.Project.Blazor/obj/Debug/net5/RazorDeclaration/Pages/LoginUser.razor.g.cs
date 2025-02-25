@@ -12,96 +12,96 @@ namespace Imi.Project.Blazor.Pages
     using global::System.Linq;
     using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 1 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using System.Net.Http
 
 #nullable disable
     ;
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Authorization
 
 #nullable disable
     ;
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization
 
 #nullable disable
     ;
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms
 
 #nullable disable
     ;
 #nullable restore
-#line 5 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 5 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing
 
 #nullable disable
     ;
 #nullable restore
-#line 6 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 6 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web
 
 #nullable disable
     ;
 #nullable restore
-#line 7 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 7 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Microsoft.JSInterop
 
 #nullable disable
     ;
 #nullable restore
-#line 8 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 8 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor
 
 #nullable disable
     ;
 #nullable restore
-#line 9 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 9 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Shared
 
 #nullable disable
     ;
 #nullable restore
-#line 10 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 10 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using BlazorInputFile;
 
 #nullable disable
 #nullable restore
-#line 11 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 11 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Models;
 
 #nullable disable
 #nullable restore
-#line 12 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 12 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using System.Threading.Tasks;
 
 #nullable disable
 #nullable restore
-#line 13 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 13 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Components;
 
 #nullable disable
 #nullable restore
-#line 14 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 14 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Services;
 
 #nullable disable
 #nullable restore
-#line 15 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 15 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Imi.Project.Blazor.Services.Interfaces;
 
 #nullable disable
 #nullable restore
-#line 16 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 16 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Blazored.Toast;
 
 #nullable disable
 #nullable restore
-#line 17 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
+#line 17 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\_Imports.razor"
 using Blazored.Toast.Services;
 
 #line default
@@ -110,7 +110,7 @@ using Blazored.Toast.Services;
     [global::Microsoft.AspNetCore.Components.RouteAttribute(
     // language=Route,Component
 #nullable restore
-#line 1 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 1 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
       "/inloggen"
 
 #line default
@@ -127,15 +127,35 @@ using Blazored.Toast.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 25 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 25 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
        
     private UserAppilcation user=new UserAppilcation();
 
     private RegisterAppilcation newUser;
+    private bool checkLogIn;
 
     protected override async Task OnInitializedAsync()
     {
-        await service.Logout();
+
+
+        await CheckLogIn();
+
+
+
+    }
+    public async Task CheckLogIn()
+    {
+        try
+        {
+            this.checkLogIn = service.CheckLogIn();
+            NavigationManager.NavigateTo("fishes");
+            toastService.ShowInfo("Gelieve de eerste uit te loggen");
+        }
+        catch (Exception ex)
+        {
+            await service.Logout();
+        }
+
     }
 
 
@@ -147,6 +167,7 @@ using Blazored.Toast.Services;
             await service.Login(user);
             toastService.ShowInfo("U bent met successfully ingelogd");
             NavigationManager.NavigateTo("fishes");
+            
         }
         catch (Exception ex)
         {
@@ -172,6 +193,7 @@ using Blazored.Toast.Services;
     {
         this.user = new UserAppilcation();
         this.newUser = null;
+ 
     }
 
     public  async Task RegisterNewUser()
@@ -190,7 +212,7 @@ using Blazored.Toast.Services;
 
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
         IToastService
 
 #line default
@@ -198,7 +220,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 4 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 4 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
                       toastService
 
 #line default
@@ -208,7 +230,7 @@ using Blazored.Toast.Services;
          = default!;
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
         NavigationManager
 
 #line default
@@ -216,7 +238,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 3 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 3 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
                           NavigationManager
 
 #line default
@@ -226,7 +248,7 @@ using Blazored.Toast.Services;
          = default!;
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private 
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
         IAccountService
 
 #line default
@@ -234,7 +256,7 @@ using Blazored.Toast.Services;
 #nullable disable
          
 #nullable restore
-#line 2 "D:\G_B\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
+#line 2 "D:\programmeren\Repo\my_projects\Api_project\src\Imi.Project.Blazor\Pages\LoginUser.razor"
                         service
 
 #line default
